@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.jooq</groupId>
-    <artifactId>joor</artifactId>
+    <artifactId>joor-java-6</artifactId>
     <version>0.9.7</version>
     <packaging>bundle</packaging>
 
@@ -46,8 +46,8 @@
                     <maxmem>512m</maxmem>
                     <meminitial>256m</meminitial>
                     <encoding>UTF-8</encoding>
-                    <source>1.9</source>
-                    <target>1.9</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                     <debug>true</debug>
                     <debuglevel>lines,vars,source</debuglevel>
                 </configuration>
@@ -76,7 +76,7 @@
                 <artifactId>maven-bundle-plugin</artifactId>
                 <version>3.3.0</version>
                 <extensions>true</extensions>
-                
+
                 <!-- JDK 9 Workaround for https://issues.apache.org/jira/browse/FELIX-5698 -->
                 <dependencies>
                     <dependency>
@@ -192,7 +192,7 @@
                                           var _gaq = _gaq || [];
                                           _gaq.push(['_setAccount', 'UA-30716479-1']);
                                           _gaq.push(['_trackPageview']);
-        
+
                                           (function() {
                                             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
                                             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';

@@ -1,6 +1,6 @@
 ### Overview
 
-jOOR stands for Java Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package.
+jOOR stands for jOOR Object Oriented Reflection. It is a simple wrapper for the java.lang.reflect package.
 
 jOOR's name is inspired by jOOQ, a fluent API for SQL building and execution.
 
@@ -9,6 +9,37 @@ jOOR's name is inspired by jOOQ, a fluent API for SQL building and execution.
 
 None!
 
+### Download
+
+**For use with Java 9+**
+
+```xml
+<dependency>
+  <groupId>org.jooq</groupId>
+  <artifactId>joor</artifactId>
+  <version>0.9.7</version>
+</dependency>
+```
+
+**For use with Java 8+**
+
+```xml
+<dependency>
+  <groupId>org.jooq</groupId>
+  <artifactId>joor-java-8</artifactId>
+  <version>0.9.7</version>
+</dependency>
+```
+
+**For use with Java 6+**
+
+```xml
+<dependency>
+  <groupId>org.jooq</groupId>
+  <artifactId>joor-java-6</artifactId>
+  <version>0.9.7</version>
+</dependency>
+```
 
 ### Simple example
 
